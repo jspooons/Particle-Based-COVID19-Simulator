@@ -1,0 +1,191 @@
+Running SLURM prolog script on gold56.cluster.local
+===============================================================================
+Job started on Mon Aug 22 09:45:41 BST 2022
+Job ID          : 1680252
+Job name        : experiment2
+WorkDir         : /mainfs/lyceum/jws1e21/git/Particle-Based-COVID19-Simulator
+Command         : /mainfs/lyceum/jws1e21/git/Particle-Based-COVID19-Simulator/experiment2_script.slurm
+Partition       : serial
+Num hosts       : 1
+Num cores       : 1
+Num of tasks    : 1
+Hosts allocated : gold56
+Job Output Follows ...
+===============================================================================
+MATLAB is selecting SOFTWARE OPENGL rendering.
+Warning: Unable to CD to 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2022 The MathWorks, Inc.
+                  R2022a (9.12.0.1884302) 64-bit (glnxa64)
+                             February 16, 2022
+
+[Warning: Unrecognized command line option: .] 
+[Warning: Directory permission denied: /mainfs/home/ik1r11/spinach/Spinach/etc] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/etc/legacy] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/etc/phantoms] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/etc/phantoms/MRILab] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/etc/textbook] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/deernet] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/deernet/cache] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/deernet/descr] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/deernet/layers] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/deernet/netset] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/deernet/netset/net_distan_dd] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/deernet/netset/net_distan_dd/deer-(128)-128-512] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/deernet/netset/net_distan_dd/deer-(512)-512-512] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/deernet/netset/net_distan_dd/ridme-(128)-128-512] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/deernet/netset/net_distan_dd/ridme-(512)-512-512] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/deernet/netset/untrained] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/deernet/netset/vet_distan_dd] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/deernet/netset/vet_distan_dd/deer-(128)-512-512] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/deernet/netset/vet_distan_dd/deer-(64)-512-512] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/hyperpol] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/imaging] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/nqr] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/optimcon] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/overtone] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/protein] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/pseudocon] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/rdc] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/spen] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/experiments/zulf] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/castep] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/comsol] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/gaussian] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/gissmo] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/jeol] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/jsonlab-1.5] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/mathematica] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/mestrenova] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/nmrpipe] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/orca] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/pbs] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/pdb_bmrb] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/simpson] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/slurm] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/spinjet] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/spinjet/Xepr_python] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/interfaces/spinxml] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/cache] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/contexts] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/conventions] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/conventions/iupac_labels] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/conventions/moments] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/conventions/object_diagrams] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/conventions/policies] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/conventions/transforms] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/grids] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/house_style] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/includes] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/integrity] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/optimcon] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/overloads] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/pulses] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/pulses/pk_files] 
+[Warning: Directory permission denied:
+/mainfs/home/ik1r11/spinach/Spinach/kernel/utilities] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+t = 
+
+ 6x1 Task array:
+ 
+         ID        State              FinishDateTime  Function  Errors  Warnings  SchedulerID
+       --------------------------------------------------------------------------------------
+    1     1      pending                              main_...       0         0             
+    2     2      pending                              main_...       0         0             
+    3     3      pending                              main_...       0         0             
+    4     4      pending                              main_...       0         0             
+    5     5      pending                              main_...       0         0             
+    6     6      pending                              main_...       0         0             
+
+==============================================================================
+Running epilogue script on gold56.
+
+Submit time  : 2022-08-22T09:45:40
+Start time   : 2022-08-22T09:45:41
+End time     : 2022-08-22T09:47:40
+Elapsed time : 00:01:59 (Timelimit=12:00:00)
+
+Job ID: 1680252
+Cluster: i5
+User/Group: jws1e21/fp
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:51
+CPU Efficiency: 42.86% of 00:01:59 core-walltime
+Job Wall-clock time: 00:01:59
+Memory Utilized: 1.02 GB
+Memory Efficiency: 4.42% of 23.07 GB
+
