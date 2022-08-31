@@ -3,24 +3,14 @@
 1. OS Windows/Linux/Mac.
 2. MATLAB R2019/R2020. 
 
-## Particle-Based COVID-19 Simulator with Contact Tracing and Testing. 
+## Particle-Based COVID-19 Simulator with Social Contact Network, network based lockdown implementation and individual level mask wearing implementation.
 
-Link to the paper: https://ieeexplore.ieee.org/document/9372866
 
-Link to the video: https://www.youtube.com/watch?v=BJfjmWfi6ac&feature=youtu.be 
 
-<img src="https://raw.githubusercontent.com/IS2AI/Particle-Based-COVID19-Simulator/main/particles_based_epidemic_simulation.gif">
+Link to the original paper that the work on this page extends: https://ieeexplore.ieee.org/document/9372866
 
 ### How to use?
-In order to replicate results in the paper for the Lecco province, run the **main_lecco.m** file
-by setting the *tracing_ratio (beta)* and *testing_rate (theta)* parameters as in the paper.
-If you are interested in simulating for a new region then you need to open **main.m** file and calibrate the model by setting new parameters. 
-
-## Vaccination Strategies for COVID-19: Effective and Sterilizing Immunization Cases. 
-
-Link to the video: https://www.youtube.com/watch?v=z2j4hcmmOwc
-
-Link to the paper: https://ieeexplore.ieee.org/abstract/document/9542855 
+In order to replicate results in my paper, run the **main_lecco.m** file
 
 ### How to use?
 - To calibrate the model, use **main_v2.m** script. It is basically a modified version of the **main_lecco.m** script. 
@@ -32,7 +22,7 @@ download the calibrated model, used in the paper, for the province of Lecco from
 - To simulate sterilizing immunization cases (random vaccination/age based vaccination) for particles between 19-69, use **sterilizing_vaccination_v2.m** script.
 
 # Note:
-If you use this code in your research, please cite the following papers:
+Citation of the original paper that is being extended:
 ```
 @ARTICLE{9372866,
   author={A. {Kuzdeuov} and A. {Karabay} and D. {Baimukashev} and B. {Ibragimov} and H. A. {Varol}},
@@ -44,16 +34,5 @@ If you use this code in your research, please cite the following papers:
   pages={111-117},
   doi={10.1109/OJEMB.2021.3064506}}
 ```
-```
-@ARTICLE{9542855,
-  author={Karabay, Aknur and Kuzdeuov, Askat and Ospanova, Shyryn and Lewis, Michael and Varol, Huseyin Atakan},
-  journal={IEEE Journal of Biomedical and Health Informatics}, 
-  title={A Vaccination Simulator for COVID-19: Effective and Sterilizing Immunization Cases}, 
-  year={2021},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/JBHI.2021.3114180}}
 
-```
 
