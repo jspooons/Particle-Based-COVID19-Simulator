@@ -21,21 +21,21 @@ main_lecco(N, NUM_E, INITIAL, GROWTH, MAX, P_NW, P_LD, P_MP, P_MT, ...
                         n_flag, l_flag, m_flag, ...
                         ExpID, jobID, taskID)
                         
-N - population size
-NUM_E - number of inially exposed particles
-INITIAL - initial size of the Barabasi-Albert network before the generative process adds the remainder of the particles to the social network
-GROWTH - growth factor, the number of new connections that each particle makes when added to the initial BA network
-MAX - maximum degree a node can have in the BA network
-P_NW - probability that an interaction is a random interaction that occurs in the environment, or if the interaction is between a contact of the infectious particle that makes the interaction
-P_LD - proportion of the population that will be locked down
-P_LD - proportion of the population that will be enforced to wear masks
-P_MT - probability that a mask wearer is wearing their mask at time T
-n_flag - raised (set to 1, or 0 if not raised) if a network is being used
-l_flag - raised if a lockdown will be enforced
-m_flag - raised if mask wearing will be enfored
-ExpID - experiment identification, different experiments disable and enable different parts of the code
-jobID - slurms scheduler job id
-taskID - Slurm scheduler task id
+- N - population size
+- NUM_E - number of inially exposed particles
+- INITIAL - initial size of the Barabasi-Albert network before the generative process adds the remainder of the particles to the social network
+- GROWTH - growth factor, the number of new connections that each particle makes when added to the initial BA network
+- MAX - maximum degree a node can have in the BA network
+- P_NW - probability that an interaction is a random interaction that occurs in the environment, or if the interaction is between a contact of the infectious particle that makes the interaction
+- P_LD - proportion of the population that will be locked down
+- P_LD - proportion of the population that will be enforced to wear masks
+- P_MT - probability that a mask wearer is wearing their mask at time T
+- n_flag - raised (set to 1, or 0 if not raised) if a network is being used
+- l_flag - raised if a lockdown will be enforced
+- m_flag - raised if mask wearing will be enfored
+- ExpID - experiment identification, different experiments disable and enable different parts of the code
+- jobID - slurms scheduler job id
+- taskID - Slurm scheduler task id
 
 # Note:
 Citation of the original paper that is being extended:
