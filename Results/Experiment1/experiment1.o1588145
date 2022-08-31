@@ -1,0 +1,67 @@
+Running SLURM prolog script on gold56.cluster.local
+===============================================================================
+Job started on Sun Jul 10 15:33:33 BST 2022
+Job ID          : 1588145
+Job name        : experiment1
+WorkDir         : /mainfs/lyceum/jws1e21/git/Particle-Based-COVID19-Simulator
+Command         : /mainfs/lyceum/jws1e21/git/Particle-Based-COVID19-Simulator/experiment1_script.slurm
+Partition       : serial
+Num hosts       : 1
+Num cores       : 1
+Num of tasks    : 1
+Hosts allocated : gold56
+Job Output Follows ...
+===============================================================================
+Warning: Unable to CD to 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2022 The MathWorks, Inc.
+                  R2022a (9.12.0.1884302) 64-bit (glnxa64)
+                             February 16, 2022
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+t = 
+
+ 15x1 Task array:
+ 
+         ID        State              FinishDateTime  Function  Errors  Warnings  SchedulerID
+       --------------------------------------------------------------------------------------
+    1     1      pending                              main_...       0         0             
+    2     2      pending                              main_...       0         0             
+    3     3      pending                              main_...       0         0             
+    4     4      pending                              main_...       0         0             
+    5     5      pending                              main_...       0         0             
+    6     6      pending                              main_...       0         0             
+    7     7      pending                              main_...       0         0             
+    8     8      pending                              main_...       0         0             
+    9     9      pending                              main_...       0         0             
+   10    10      pending                              main_...       0         0             
+   11    11      pending                              main_...       0         0             
+   12    12      pending                              main_...       0         0             
+   13    13      pending                              main_...       0         0             
+   14    14      pending                              main_...       0         0             
+   15    15      pending                              main_...       0         0             
+
+==============================================================================
+Running epilogue script on gold56.
+
+Submit time  : 2022-07-10T15:33:31
+Start time   : 2022-07-10T15:33:32
+End time     : 2022-07-10T15:34:38
+Elapsed time : 00:01:06 (Timelimit=1-01:00:00)
+
+Job ID: 1588145
+Cluster: i5
+User/Group: jws1e21/fp
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:45
+CPU Efficiency: 68.18% of 00:01:06 core-walltime
+Job Wall-clock time: 00:01:06
+Memory Utilized: 1.22 GB
+Memory Efficiency: 10.55% of 11.54 GB
+
