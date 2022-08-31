@@ -1,5 +1,5 @@
 function plot_average(delta_t, cur_iter, tot_exposed, tot_infected, tot_recovered, tot_dead, tot_quarantined, ... 
-    tot_isolated, tot_severe_inf, tot_cases, std_dev_dead, std_dev_tot)
+    tot_isolated, tot_severe_inf, tot_cases, std_dev_dead, std_dev_tot, filename)
 
 % close all plots
 close all;
@@ -62,7 +62,7 @@ legend( legend_list, 'FontName','Arial', 'FontSize', 12','FontWeight','Demi','Lo
 
 ylabel('Number of Particles','FontName','Arial', 'FontSize', 14, 'FontWeight', 'Demi');
 xlabel('', 'FontName','Arial', 'FontSize', 14, 'FontWeight', 'Demi');
-xlim([0 100]);
+xlim([0 200]);
 %ylim([0 18000]);
 set(gca,'YTickLabel',num2str(get(gca,'YTick').'))
 grid on;  box on;
@@ -87,10 +87,11 @@ hold on
 hb = plot(time_vec, tot_dead(1:cur_iter), 'k-', 'LineWidth', 1);
 hc = plot(time_vec, tot_severe_inf(1:cur_iter), 'r--', 'LineWidth', 1);
 
-xlim([0 100]);
+xlim([0 200]);
 %ylim([0 1500]);
 legend([hb hc], 'Dead', 'Severe Infected', 'FontSize', 12', 'Location','northwest','Orientation','Vertical');
 hold off;
 
-saveas(f1, 'milan_std_dev.png')
+%saveas(f1, 'milan_std_dev.png')
+saveas(f1, filename);
 end
