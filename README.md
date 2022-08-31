@@ -13,13 +13,29 @@ Link to the original paper that the work on this page extends: https://ieeexplor
 In order to replicate results in my paper, run the **main_lecco.m** file
 
 ### How to use?
-- To calibrate the model, use **main_v2.m** script. It is basically a modified version of the **main_lecco.m** script. 
-We included an additional state, age, to make transitions from the Infected/Isolated state to the Severely Infected state based on the ages of particles. Then, you can use the calibrated model to simulate different vaccination strategies. You can also
-download the calibrated model, used in the paper, for the province of Lecco from [here](https://drive.google.com/drive/folders/1JbNz1FaX1_lCMfWsKwQ-ZWPr47z7v6eA?usp=sharing). 
-- To simulate effective immunization cases (random vaccination/age based vaccination) for particles above 19, use **effective_vaccination.m** script.
-- To simulate effective immunization cases (random vaccination/age based vaccination) for particles between 19-69, use **effective_vaccination_v2.m** script.
-- To simulate sterilizing immunization cases (random vaccination/age based vaccination) for particles above 19, use **sterilizing_vaccination.m** script.
-- To simulate sterilizing immunization cases (random vaccination/age based vaccination) for particles between 19-69, use **sterilizing_vaccination_v2.m** script.
+- Run 'sbatch experimentX_slurm.script' in a terminal
+- Make sure the .script file, the job.m file, and the program files are all in the same location
+- In the job.m file, to fine tune the parameters for an experiment, you first need to understand the roles each parameter plays, here is a description:
+
+main_lecco(N, NUM_E, INITIAL, GROWTH, MAX, P_NW, P_LD, P_MP, P_MT, ...
+                        n_flag, l_flag, m_flag, ...
+                        ExpID, jobID, taskID)
+                        
+N - population size
+NUM_E - number of inially exposed particles
+INITIAL - initial size of the Barabasi-Albert network before the generative process adds the remainder of the particles to the social network
+GROWTH - growth factor, the number of new connections that each particle makes when added to the initial BA network
+MAX - maximum degree a node can have in the BA network
+P_NW - probability that an interaction is a random interaction that occurs in the environment, or if the interaction is between a contact of the infectious particle that makes the interaction
+P_LD - proportion of the population that will be locked down
+P_LD - proportion of the population that will be enforced to wear masks
+P_MT - probability that a mask wearer is wearing their mask at time T
+n_flag - raised (set to 1, or 0 if not raised) if a network is being used
+l_flag - raised if a lockdown will be enforced
+m_flag - raised if mask wearing will be enfored
+ExpID - experiment identification, different experiments disable and enable different parts of the code
+jobID - slurms scheduler job id
+taskID - Slurm scheduler task id
 
 # Note:
 Citation of the original paper that is being extended:
