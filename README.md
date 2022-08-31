@@ -13,7 +13,7 @@ Link to the original paper that the work on this page extends: https://ieeexplor
 In order to replicate results in my paper, run the **main_lecco.m** file
 
 ### How to use?
-- Run 'sbatch experimentX_slurm.script' in a terminal
+- Run 'sbatch experimentX_slurm.script' in a terminal (currently job and script files reside in Results/ExperimentX folders)
 - Make sure the .script file, the job.m file, and the program files are all in the same location
 - In the job.m file, to fine tune the parameters for an experiment, you first need to understand the roles each parameter plays, here is a description:
 
@@ -38,6 +38,10 @@ main_lecco(N, NUM_E, INITIAL, GROWTH, MAX, P_NW, P_LD, P_MP, P_MT, ...
 - taskID - Slurm scheduler task id
 
 # Note:
+- Results folder contains all of the results for each experiment
+- Jupyter nodebooks in each Results/ExperimentX file, which analyse all of the graphs and tables
+
+
 Citation of the original paper that is being extended:
 ```
 @ARTICLE{9372866,
