@@ -17,9 +17,7 @@ In order to replicate results in my paper, run the **main_lecco.m** file
 - Make sure the .script file, the job.m file, and the program files are all in the same location
 - In the job.m file, to fine tune the parameters for an experiment, you first need to understand the roles each parameter plays, here is a description:
 
-main_lecco(N, NUM_E, INITIAL, GROWTH, MAX, P_NW, P_LD, P_MP, P_MT, ...
-                        n_flag, l_flag, m_flag, ...
-                        ExpID, jobID, taskID)
+main_lecco(N, NUM_E, INITIAL, GROWTH, MAX, P_NW, P_LD, P_MP, P_MT, n_flag, l_flag, m_flag, ExpID, jobID, taskID)
                         
 - N - population size
 - NUM_E - number of inially exposed particles
